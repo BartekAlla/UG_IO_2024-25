@@ -46,22 +46,22 @@ print("Your date of birth is: " + str(date_of_birth.year) + "-" + str(date_of_bi
 print("Today is: " + str(current_date.year) + "-" + str(current_date.month) + "-" + str(current_date.day))
 print("It's your " + str(days_of_life(date_of_birth, current_date)) + " day of life!")
 
-if check_if_biorhythm_is_high(physical_wave(days_of_life(date_of_birth, current_date) + 1)):
-    print("Your physical biorhythm is high! Seize the day")
+if check_if_biorhythm_is_high(physical_wave(days_of_life(date_of_birth, current_date))):
+    print("Your physical biorhythm is high! Seize the day!")
 elif check_if_biorhythm_is_low(physical_wave(days_of_life(date_of_birth, current_date))):
     print("Your physical biorhythm is low, but it's only number! Enjoy the day!")
     if check_if_biorhythm_is_high(physical_wave(days_of_life(date_of_birth, current_date) + 1)):
         print("Don't worry. Tomorrow will be better!")
 
 if check_if_biorhythm_is_high(emotional_wave(days_of_life(date_of_birth, current_date))):
-    print("Your emotional biorhythm is high! Seize the day")
+    print("Your emotional biorhythm is high! Seize the day!")
 elif check_if_biorhythm_is_low(emotional_wave(days_of_life(date_of_birth, current_date))):
     print("Your emotional biorhythm is low, but it's only number! Enjoy the day!")
     if check_if_biorhythm_is_high(emotional_wave(days_of_life(date_of_birth, current_date) + 1)):
         print("Don't worry. Tomorrow will be better!")
 
 if check_if_biorhythm_is_high(intellectual_wave(days_of_life(date_of_birth, current_date))):
-    print("Your intellectual biorhythm is high! Seize the day")
+    print("Your intellectual biorhythm is high! Seize the day!")
 elif check_if_biorhythm_is_low(intellectual_wave(days_of_life(date_of_birth, current_date))):
     print("Your intellectual biorhythm is low, but it's only number! Enjoy the day!")
     if check_if_biorhythm_is_high(intellectual_wave(days_of_life(date_of_birth, current_date) + 1)):
