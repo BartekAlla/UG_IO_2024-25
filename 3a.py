@@ -1,6 +1,6 @@
 # import pandas as pd
 #
-# iris_data = pd.read_csv("iris_with_errors_values_out_of_bound.csv")
+# iris_data = pd.read_csv("iris_with_errors.csv")
 #
 # missing_values = iris_data.isnull().sum() + (iris_data == "").sum()
 # print("Missing values for each column:")
