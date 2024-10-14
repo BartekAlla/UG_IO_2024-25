@@ -35,4 +35,4 @@ iris_data = pd.read_csv("iris_with_errors.csv")
 corrected_dataset = replace_out_of_bounds(iris_data)
 corrected_dataset = check_species(corrected_dataset)
 print(corrected_dataset.values)
-missing_values = corrected_dataset.isnull().sum() + (corrected_dataset == "").sum()
+
