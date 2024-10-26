@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15f72ace-0eb8-4939-b0f0-a3842c0ac05d" name="Changes" comment="Lab 2 zadania" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="ClasificationByHuman" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BartekAlla&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BartekAlla/UG_IO_2024-25.git&quot;,
+    &quot;accountId&quot;: &quot;4dadf982-0f54-4a36-8865-a6ac6718a1bf&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2n1nCF4ZTYHdzDB4hTLzussXfk5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1e.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3c.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5ai.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studia/UG_IO_2024-25&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Studia\UG_IO_2024-25" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studia\UG_IO_2024-25" />
+      <recent name="D:\Studia\UG_IO_2024-25\Files\Lab01" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="1e" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="UG_IO_2024-25" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1e.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.1e" />
+        <item itemvalue="Python.1e" />
+        <item itemvalue="Python.1e" />
+        <item itemvalue="Python.1e" />
+        <item itemvalue="Python.1e" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15f72ace-0eb8-4939-b0f0-a3842c0ac05d" name="Changes" comment="" />
+      <created>1728149321127</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1728149321127</updated>
+      <workItem from="1728149327128" duration="4364000" />
+      <workItem from="1728235749886" duration="1012000" />
+      <workItem from="1728237003839" duration="169000" />
+      <workItem from="1728237184312" duration="5441000" />
+      <workItem from="1728278649488" duration="114000" />
+      <workItem from="1728278797951" duration="179000" />
+      <workItem from="1728454408504" duration="7827000" />
+      <workItem from="1728922549966" duration="12935000" />
+      <workItem from="1729098701789" duration="10904000" />
+      <workItem from="1729337552297" duration="3994000" />
+      <workItem from="1729699523432" duration="9546000" />
+      <workItem from="1729942590775" duration="893000" />
+    </task>
+    <task id="LOCAL-00001" summary="First part of biorhythms task">
+      <option name="closed" value="true" />
+      <created>1728155398584</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1728155398584</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1a task finished">
+      <option name="closed" value="true" />
+      <created>1728238047815</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1728238047815</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1b task finished">
+      <option name="closed" value="true" />
+      <created>1728240650991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728240650992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1d task completed by ChatGPT">
+      <option name="closed" value="true" />
+      <created>1728242175892</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728242175892</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1e task completed">
+      <option name="closed" value="true" />
+      <created>1728243192494</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728243192494</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1e finished">
+      <option name="closed" value="true" />
+      <created>1728243314216</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728243314216</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Exercise 2 finished">
+      <option name="closed" value="true" />
+      <created>1728462855344</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728462855344</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added trajectory.png">
+      <option name="closed" value="true" />
+      <created>1728462930689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728462930689</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Changed program comments to English">
+      <option name="closed" value="true" />
+      <created>1728463100660</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728463100660</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Changed program comments to English">
+      <option name="closed" value="true" />
+      <created>1728922823166</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1728922823166</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changed program comments to English">
+      <option name="closed" value="true" />
+      <created>1728922925199</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728922925199</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Added iris_with_error file">
+      <option name="closed" value="true" />
+      <created>1728923145340</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728923145340</updated>
+    </task>
+    <task id="LOCAL-00013" summary="3a and 3b exercise done">
+      <option name="closed" value="true" />
+      <created>1728929551111</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728929551111</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Exercise done">
+      <option name="closed" value="true" />
+      <created>1728934442950</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728934442950</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Updated 3c">
+      <option name="closed" value="true" />
+      <created>1728934534275</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728934534275</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Started ex. 4">
+      <option name="closed" value="true" />
+      <created>1728934696588</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728934696588</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Started ex. 4">
+      <option name="closed" value="true" />
+      <created>1728934737044</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728934737044</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Started ex. 4">
+      <option name="closed" value="true" />
+      <created>1728937236077</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728937236077</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Started ex. 5">
+      <option name="closed" value="true" />
+      <created>1728937320965</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728937320965</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Exercise 4 done">
+      <option name="closed" value="true" />
+      <created>1729104140497</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1729104140497</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Exercise 5 done">
+      <option name="closed" value="true" />
+      <created>1729110740581</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1729110740581</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ClasificationByHuman">
+      <option name="closed" value="true" />
+      <created>1729339210341</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1729339210341</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Started ex1">
+      <option name="closed" value="true" />
+      <created>1729339480752</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1729339480752</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Started ex1">
+      <option name="closed" value="true" />
+      <created>1729339686184</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729339686184</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Trebuchet">
+      <option name="closed" value="true" />
+      <created>1729340373240</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729340373240</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Lab 2 zadania">
+      <option name="closed" value="true" />
+      <created>1729709220199</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1729709220199</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First part of biorhythms task" />
+    <MESSAGE value="1a task finished" />
+    <MESSAGE value="1b task finished" />
+    <MESSAGE value="1d task completed by ChatGPT" />
+    <MESSAGE value="1e task completed" />
+    <MESSAGE value="1e finished" />
+    <MESSAGE value="Exercise 2 finished" />
+    <MESSAGE value="added trajectory.png" />
+    <MESSAGE value="Changed program comments to English" />
+    <MESSAGE value="Added iris_with_error file" />
+    <MESSAGE value="3a and 3b exercise done" />
+    <MESSAGE value="Exercise done" />
+    <MESSAGE value="Updated 3c" />
+    <MESSAGE value="Started ex. 4" />
+    <MESSAGE value="Started ex. 5" />
+    <MESSAGE value="Exercise 4 done" />
+    <MESSAGE value="Exercise 5 done" />
+    <MESSAGE value="ClasificationByHuman" />
+    <MESSAGE value="Started ex1" />
+    <MESSAGE value="Trebuchet" />
+    <MESSAGE value="Lab 2 zadania" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 zadania" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$2_1.coverage" NAME="2_1 Coverage Results" MODIFIED="1728455086550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$2_4.coverage" NAME="2_4 Coverage Results" MODIFIED="1728463038416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$3c.coverage" NAME="3c Coverage Results" MODIFIED="1729340627054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$1b.coverage" NAME="1b Coverage Results" MODIFIED="1729340258419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$1a.coverage" NAME="1a Coverage Results" MODIFIED="1729340025626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$1e.coverage" NAME="1e Coverage Results" MODIFIED="1729340337144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$3.coverage" NAME="3 Coverage Results" MODIFIED="1729708961991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$1d.coverage" NAME="1d Coverage Results" MODIFIED="1728242851716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$2_2.coverage" NAME="2_2 Coverage Results" MODIFIED="1728457594487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$3a.coverage" NAME="3a Coverage Results" MODIFIED="1728934229267" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$2.coverage" NAME="2 Coverage Results" MODIFIED="1729708897835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$5ai.coverage" NAME="5ai Coverage Results" MODIFIED="1729112029390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$4.coverage" NAME="4 Coverage Results" MODIFIED="1729340673702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$5.coverage" NAME="5 Coverage Results" MODIFIED="1729340741734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$2_3.coverage" NAME="2_3 Coverage Results" MODIFIED="1729708854222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$3b.coverage" NAME="3b Coverage Results" MODIFIED="1728934305744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UG_IO_2024_25$1.coverage" NAME="1 Coverage Results" MODIFIED="1729704727706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
