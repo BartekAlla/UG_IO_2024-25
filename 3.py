@@ -62,7 +62,7 @@ print("Confusion Matrix:")
 print(nb_conf_matrix)
 
 
-# Dla DD - accuracy 95,56%
+# Dla DD - accuracy 95,56%/93,33%
 # Dla 3-NN - accuracy 95,56%
 # Dla 5-NN - accuracy 97,78%
 # Dla 11-NN - accuracy 95,56%
