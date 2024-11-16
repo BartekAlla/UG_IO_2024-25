@@ -31,7 +31,7 @@ model = Sequential([
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 checkpoint = ModelCheckpoint(
-    'best_model.h5',
+    'best_model.keras',
     monitor='val_accuracy',
     verbose=1,
     save_best_only=True,
