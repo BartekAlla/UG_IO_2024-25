@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f72ace-0eb8-4939-b0f0-a3842c0ac05d" name="Changes" comment="Lab4 zad 1-2e">
-      <change afterPath="$PROJECT_DIR$/zad3/zad3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/zad3e.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zad2/keras-mnist-cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/zad2/keras-mnist-cnn.py" afterDir="false" />
+    <list default="true" id="15f72ace-0eb8-4939-b0f0-a3842c0ac05d" name="Changes" comment="Lab4 zad 2e-3">
+      <change afterPath="$PROJECT_DIR$/zad2/best_model.keras" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_False_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_False_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_True_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_True_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/Adam_tanh_dropout_False_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/Adam_tanh_dropout_False_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/Basic_model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_False_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_False_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_True_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_True_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_False_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_False_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_True_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_True_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_False_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_False_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_True_confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_True_plot.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +180,7 @@
       <workItem from="1730826284743" duration="2845000" />
       <workItem from="1731155785962" duration="2239000" />
       <workItem from="1731518619570" duration="10376000" />
-      <workItem from="1731612163490" duration="26395000" />
+      <workItem from="1731612163490" duration="26919000" />
     </task>
     <task id="LOCAL-00001" summary="First part of biorhythms task">
       <option name="closed" value="true" />
@@ -422,14 +438,21 @@
       <option name="project" value="LOCAL" />
       <updated>1731537625843</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Lab4 zad 2e-3">
+      <option name="closed" value="true" />
+      <created>1731763726072</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1731763726072</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="1b task finished" />
     <MESSAGE value="1d task completed by ChatGPT" />
     <MESSAGE value="1e task completed" />
     <MESSAGE value="1e finished" />
@@ -454,7 +477,8 @@
     <MESSAGE value="Lab3" />
     <MESSAGE value="Lab3 zad 3" />
     <MESSAGE value="Lab4 zad 1-2e" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab4 zad 1-2e" />
+    <MESSAGE value="Lab4 zad 2e-3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab4 zad 2e-3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/UG_IO_2024_25$2_1.coverage" NAME="2_1 Coverage Results" MODIFIED="1728455086550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
