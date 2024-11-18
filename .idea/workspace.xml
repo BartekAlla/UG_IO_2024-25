@@ -6,25 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="15f72ace-0eb8-4939-b0f0-a3842c0ac05d" name="Changes" comment="Lab4 zad 2e-3">
       <change afterPath="$PROJECT_DIR$/zad2/best_model.keras" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_False_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_False_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_True_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/Adam_relu_dropout_True_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/Adam_tanh_dropout_False_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/Adam_tanh_dropout_False_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/Basic_model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_False_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_False_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_True_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_relu_dropout_True_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_False_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_False_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_True_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_sigmoid_dropout_True_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_False_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_False_plot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_True_confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zad3/SGD_tanh_dropout_True_plot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +162,7 @@
       <workItem from="1730826284743" duration="2845000" />
       <workItem from="1731155785962" duration="2239000" />
       <workItem from="1731518619570" duration="10376000" />
-      <workItem from="1731612163490" duration="26919000" />
+      <workItem from="1731612163490" duration="28540000" />
     </task>
     <task id="LOCAL-00001" summary="First part of biorhythms task">
       <option name="closed" value="true" />
@@ -446,7 +428,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731763726072</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Lab4 zad 2e-3">
+      <option name="closed" value="true" />
+      <created>1731764124059</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1731764124059</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
