@@ -35,14 +35,6 @@ def fitness_function(ga_instance, solution, solution_idx):
     return total_value
 
 
-fitness_values = []
-
-
-def on_generation(ga_instance):
-    best_fitness = ga_instance.best_solution()[1]
-    fitness_values.append(best_fitness)
-
-
 # c)
 gene_space = [0, 1]
 sol_per_pop = 10
@@ -54,11 +46,36 @@ parent_selection_type = "sss"
 crossover_type = "single_point"
 mutation_type = "random"
 mutation_percent_genes = 10
-stop_criteria = ["fitness", 1630]
-
-
+stop_criteria = ["reach_1630"]
+fitness_values = []
 successful_trials = 0
+
+
+def on_generation(ga_instance):
+    best_fitness = ga_instance.best_solution()[1]
+    fitness_values.append(best_fitness)
+
+
+def on_stop(ga_instance, stop_criteria):
+    global successful_trials
+    solution, solution_fitness, solution_idx = ga_instance.best_solution(ga_instance.last_generation_fitness)
+    if solution_fitness == 1630:
+        successful_trials += 1
+        print(f"Osiągnięto kryterium stopu: {solution_fitness}")
+        print("Najlepsze rozwiązanie (binarne):", solution)
+        selected_items = []
+        for i in range(len(solution)):
+            if solution[i] == 1:
+                item_name = list(items.keys())[i]
+                selected_items.append(item_name)
+
+        print("Wybrane przedmioty:", selected_items)
+
+        ga_instance.plot_fitness()
+
+
 times = []
+
 while successful_trials < 10:
     start = time.time()
     ga_instance = pygad.GA(gene_space=gene_space,
@@ -72,35 +89,17 @@ while successful_trials < 10:
                            crossover_type=crossover_type,
                            mutation_type=mutation_type,
                            mutation_percent_genes=mutation_percent_genes,
-                           on_generation=on_generation)
+                           on_generation=on_generation,
+                           stop_criteria=stop_criteria,
+                           on_stop=on_stop)
     ga_instance.run()
     end = time.time()
-
-    solution, solution_fitness, solution_idx = ga_instance.best_solution()
-    if solution_fitness == 1630:
-        successful_trials += 1
-        print(f"Próba {successful_trials} zakończona sukcesem.")
-        print("Najlepsze rozwiązanie (binarne):", solution)
-        print("Wartość rozwiązania (fitness):", solution_fitness)
-
-        selected_items = []
-        selected_value = 0
-        for i in range(len(solution)):
-            if solution[i] == 1:
-                item_name = list(items.keys())[i]
-                selected_items.append(item_name)
-
-
-        print("Wybrane przedmioty:", selected_items)
-
-    ga_instance.plot_fitness()
-    times.append(end - start)
+    print(f"Liczba generacji {ga_instance.generations_completed}")
+    if np.max(ga_instance.last_generation_fitness) == 1630:
+        times.append(end - start)
 
 average_time = np.mean(times)
 print(f"Średni czas działania algorytmu: {average_time:.4f} sekundy")
-
-
-
 
 # d)
 # Najlepsze rozwiązanie (binarne): [0. 1. 1. 0. 1. 0. 1. 1. 0. 1. 0.]
@@ -108,4 +107,4 @@ print(f"Średni czas działania algorytmu: {average_time:.4f} sekundy")
 # Wybrane przedmioty: ['obraz-pejzaz', 'obraz-portret', 'laptop', 'srebrne sztucce', 'porcelana', 'skorzana torebka']
 # Wartość wybranych przedmiotów: 1630
 # e) 80%
-# f) 0.0294 sekundy
+# f) 0.2461 sekundy
