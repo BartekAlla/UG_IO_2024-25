@@ -33,12 +33,12 @@
     &quot;assignee&quot;: &quot;BartekAlla&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BartekAlla/UG_IO_2024-25.git",
-    "accountId": "742bf205-4204-43c7-878f-86ddcce99d42"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BartekAlla/UG_IO_2024-25.git&quot;,
+    &quot;accountId&quot;: &quot;742bf205-4204-43c7-878f-86ddcce99d42&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -47,46 +47,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.1.executor": "Run",
-    "Python.1a.executor": "Run",
-    "Python.1b.executor": "Run",
-    "Python.1d.executor": "Run",
-    "Python.1e.executor": "Run",
-    "Python.2.executor": "Run",
-    "Python.2_1.executor": "Run",
-    "Python.2_2.executor": "Run",
-    "Python.2_3.executor": "Run",
-    "Python.2_4.executor": "Run",
-    "Python.3.executor": "Run",
-    "Python.3a.executor": "Run",
-    "Python.3b.executor": "Run",
-    "Python.3c.executor": "Run",
-    "Python.4.executor": "Run",
-    "Python.5.executor": "Run",
-    "Python.5ai.executor": "Run",
-    "Python.keras-iris.executor": "Run",
-    "Python.keras-mnist-cnn.executor": "Run",
-    "Python.partition_ga.executor": "Run",
-    "Python.zad1.executor": "Run",
-    "Python.zad2.executor": "Run",
-    "Python.zad3.executor": "Run",
-    "Python.zad3e.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "GeneticAlgorithms",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/Studia/UG_IO_2024-25",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.1e.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.2_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3c.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5ai.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keras-iris.executor&quot;: &quot;Run&quot;,
+    &quot;Python.keras-mnist-cnn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.partition_ga.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zad1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zad2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zad3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.zad3e.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;GeneticAlgorithms&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Studia/UG_IO_2024-25&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Studia\UG_IO_2024-25" />
