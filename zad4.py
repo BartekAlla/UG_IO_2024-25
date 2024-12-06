@@ -59,6 +59,7 @@ run_test_harness()
 # Warstwa ukryta Dense(128, activation='relu').
 # Dense(1, activation='sigmoid') - Warstwa wyjściowa dla klasyfikacji binarnej.
 # Accuracy with ResNet50: 57.877
-
+# Dla sieci konwolucyjnej osiągnieto :
+# SGD - relu - Dropout: False > Accuracy: 71.92% co wskazuej, że ResNet poradził sobie zdecydowanie gorzej
 
 
