@@ -1,6 +1,7 @@
 import cv2
 import os
 
+
 def count_birds_in_image(image_path):
     image = cv2.imread(image_path)
     if image is None:
@@ -16,6 +17,7 @@ def count_birds_in_image(image_path):
     morph = cv2.morphologyEx(thresh, cv2.MORPH_CLOSE, kernel)
     contours, _ = cv2.findContours(morph, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
     return len(contours)
+
 
 def process_folder(folder_path):
     if not os.path.exists(folder_path):
@@ -35,6 +37,7 @@ def process_folder(folder_path):
             print(f"Pominięto plik (nie obraz): {filename}")
     return results
 
+
 folder_path = r"D:\Studia\UG_IO_2024-25\birds"
 
 if not os.path.exists(folder_path):
@@ -52,3 +55,9 @@ else:
 # Progowanie adaptacyjne - adaptiveThreshold
 # Operacje morfologiczne
 # Użyto findContours  do znalezienia konturów ptaków
+
+#
+# 1ptak.png: 1 ptaków
+# 23ptaki.png: 24 ptaków
+# 2ptaki.png: 2 ptaków
+# 7ptakow.png: 7 ptaków

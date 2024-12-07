@@ -21,3 +21,4 @@ optimizer.optimize(f, iters=1000)
 cost_history = optimizer.cost_history
 plot_cost_history(cost_history)
 plt.show()
+# -2.8125916683436962, best pos: [0.47968145 0.55380137 0.97829855 0.99992726 0.03026238 0.21434332]
