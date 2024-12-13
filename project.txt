@@ -1,0 +1,7 @@
+Cel: Zoptymalizować parametry regulatora PID dla różnych obiektów dynamicznych (np. systemów mechanicznych, termicznych, czy hydraulicznych)
+za pomocą algorytmu genetycznego.
+Działanie algorytmu genetycznego:
+Chromosomy: Kp, Ti, Td kodowane jako ciąg liczb rzeczywistych.
+Funkcja fitness: Minimalizacja wskaźników jakości regulacji, np. uchybu (ISE, ITAE) lub czasu regulacji i przeregulowania.
+
+Python + biblioteka Control Systems
