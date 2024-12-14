@@ -13,5 +13,5 @@
 # supported by women and may not be visible. is maintained in an urban environment,
 # with the possibility of affecting people and vehicles in the background.
 # The people in the background are normal people, not police officers.
-# There are maybe 4 of them. The area looks like a Brooklyn suburb, there are no tall buildings.
+# There are maybe 4 of them. The area looks like a New York suburb, there are no tall buildings.
 # You can see clothes hanging on a line. There are only two policemen in the video.
