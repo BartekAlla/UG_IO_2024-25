@@ -36,8 +36,8 @@ def plot_all_edges():
 plot_nodes()
 
 colony = AntColony(
-    COORDS, ant_count=300, alpha=0.5, beta=1.2,
-    pheromone_evaporation_rate=0.40, pheromone_constant=1000.0,
+    COORDS, ant_count=1000, alpha=0.5, beta=3,
+    pheromone_evaporation_rate=0.4, pheromone_constant=1000.0,
     iterations=300
 )
 
@@ -54,8 +54,54 @@ for i in range(len(optimal_nodes) - 1):
 plt.show()
 
 # Dla defaultowych: 355.55909478663426
-# Po zmianie liczby mrówek na 500: 410.0291314049857
 # Zmniejszenie pheromone_evaporation_rate na 0.3: 425.33906437839494
 # Zmiana wpływu eurestyki beta na 2: 425.33906437839494
 # Zmiana itercji na 500: 368.2627057188553
-# Wszystko razem: 424.7998311547383
+
+# Dla podstawowego:
+# colony = AntColony(
+#     COORDS, ant_count=300, alpha=0.5, beta=1.2,
+#     pheromone_evaporation_rate=0.40, pheromone_constant=1000.0,
+#     iterations=300
+# )
+# 410.0291314049857
+
+# Zwiększneie iteracji na 500:
+# colony = AntColony(
+#     COORDS, ant_count=300, alpha=0.5, beta=1.2,
+#     pheromone_evaporation_rate=0.40, pheromone_constant=1000.0,
+#     iterations=500
+# )
+# 417.23225177648794
+
+# Więcej mrówek - 1000
+# colony = AntColony(
+#     COORDS, ant_count=1000, alpha=0.5, beta=1.2,
+#     pheromone_evaporation_rate=0.40, pheromone_constant=1000.0,
+#     iterations=300
+# )
+# 355.55909478663426
+
+# zmiana pheromone_evaporation_rate
+# colony = AntColony(
+#     COORDS, ant_count=1000, alpha=0.5, beta=1.2,
+#     pheromone_evaporation_rate=0.2, pheromone_constant=1000.0,
+#     iterations=300
+# )
+# 421.6130062717949
+
+# Zmiana wpływu eurestyki beta na 0.5:
+# colony = AntColony(
+#     COORDS, ant_count=1000, alpha=0.5, beta=0.5,
+#     pheromone_evaporation_rate=0.4, pheromone_constant=1000.0,
+#     iterations=300
+# )
+# 413.0310660470092
+
+# Zmiana wpływu eurestyki beta na 3:
+# colony = AntColony(
+#     COORDS, ant_count=1000, alpha=0.5, beta=0.5,
+#     pheromone_evaporation_rate=0.4, pheromone_constant=1000.0,
+#     iterations=300
+# )
+# 368.2627057188553
