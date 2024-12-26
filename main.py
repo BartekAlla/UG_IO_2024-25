@@ -94,45 +94,6 @@ def plot_step_response(system, Kp, Ki, Kd, label, ax):
     ax.grid()
     ax.legend()
 
-
-# Funkcja porównująca różne funkcje fitness
-# def compare_fitness_functions():
-#     fitness_functions = [fitness_ISE, fitness_IAE, fitness_MSE, fitness_ITAE, fitness_ITAE_settling,
-#                          fitness_multi_objective]
-#     labels = ['ISE', 'IAE', 'MSE', 'ITAE', 'ITAE_settling', 'multi_objective']
-#
-#     # Utworzenie sub-wykresów (np. 2 wiersze, 3 kolumny)
-#     fig, axes = plt.subplots(2, 3, figsize=(15, 10))
-#     axes = axes.flatten()  # Spłaszczenie tablicy osi do jednego wymiaru
-#
-#     # Optymalizacja i rysowanie wyników dla każdej funkcji fitness
-#     for i, (fitness_function, label) in enumerate(zip(fitness_functions, labels)):
-#         best_individual = optimize(fitness_function)
-#         Kp, Ki, Kd = best_individual
-#         plot_step_response(system, Kp, Ki, Kd, label, axes[i])
-#
-#     # Rysowanie wspólnego wykresu dla wszystkich funkcji fitness
-#     fig_comparison, ax_comparison = plt.subplots(figsize=(10, 6))
-#     for fitness_function, label in zip(fitness_functions, labels):
-#         best_individual = optimize(fitness_function)
-#         Kp, Ki, Kd = best_individual
-#         pid = pid_controller(Kp, Ki, Kd)
-#         t, y = closed_loop_response(system, pid)
-#         ax_comparison.plot(t, y, label=label)
-#
-#     # Dodanie wartości zadanej na wspólnym wykresie
-#     ax_comparison.axhline(1, color="r", linestyle="--", label="Wartość zadana")
-#
-#     # Ustawienia wspólnego wykresu
-#     ax_comparison.set_xlabel("Czas [s]")
-#     ax_comparison.set_ylabel("Odpowiedź")
-#     ax_comparison.set_title("Porównanie odpowiedzi skokowych dla różnych funkcji fitness")
-#     ax_comparison.legend()
-#     ax_comparison.grid()
-#
-#     # Dopasowanie układu sub-wykresów
-#     plt.tight_layout()
-#     plt.show()
 def compare_fitness_functions():
     fitness_functions = [fitness_ISE, fitness_IAE, fitness_MSE, fitness_ITAE, fitness_ITAE_settling,
                          fitness_multi_objective]
