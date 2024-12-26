@@ -1,12 +1,11 @@
 from deap import base, creator, tools, algorithms
 import random
 import matplotlib.pyplot as plt
-from model_and_fitness_functions import fitness_ISE, create_system, pid_controller, closed_loop_response
+from model_and_fitness_functions import fitness_ISE, fitness_IAE, fitness_MSE, fitness_ITAE, fitness_ITAE_settling, fitness_multi_objective, create_system, pid_controller, closed_loop_response
 
 # Tworzenie systemu
 system = create_system()
 
-# Tworzenie funkcji celu (minimalizacja ISE)
 creator.create("FitnessMin", base.Fitness, weights=(-1.0,))
 creator.create("Individual", list, fitness=creator.FitnessMin)
 
