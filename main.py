@@ -1,7 +1,14 @@
 from deap import base, creator, tools, algorithms
 import random
+import numpy as np
 import matplotlib.pyplot as plt
-from model_and_fitness_functions import fitness_ISE, fitness_IAE, fitness_MSE, fitness_ITAE, fitness_ITAE_settling, fitness_multi_objective, create_system, pid_controller, closed_loop_response
+from model_and_fitness_functions import fitness_ISE, fitness_IAE, fitness_MSE, fitness_ITAE, fitness_ITAE_settling, \
+    fitness_multi_objective, create_system, pid_controller, closed_loop_response
+
+# Ustawienie ziarna dla losowości, aby ułatwić porównanie z różnymi parametrami w każdym wywołaniu
+SEED = 298837
+random.seed(SEED)
+np.random.seed(SEED)
 
 # Tworzenie systemu
 system = create_system()
@@ -19,6 +26,7 @@ toolbox.register("mate", tools.cxBlend, alpha=0.5)
 toolbox.register("mutate", tools.mutGaussian, mu=0, sigma=1, indpb=0.2)
 toolbox.register("select", tools.selTournament, tournsize=3)
 
+
 # Funkcja oceny (fitness)
 def evaluate(individual):
     Kp, Ki, Kd = individual
@@ -26,6 +34,7 @@ def evaluate(individual):
     fitness_value = fitness_function(Kp, Ki, Kd, system)  # Przekazanie do funkcji fitness
     individual.fitness.values = (fitness_value,)  # Przypisujemy do atrybutu 'values'
     return individual.fitness.values  # Funkcja powinna zwrócić wartości fitness
+
 
 toolbox.register("evaluate", evaluate)
 
@@ -39,6 +48,7 @@ def print_best_parameters(population):
     best_individual = tools.selBest(population, k=1)[0]
     Kp, Ki, Kd = best_individual
     print(f"Najlepsze parametry PID w tej generacji: Kp={Kp}, Ki={Ki}, Kd={Kd}")
+
 
 # Funkcja do optymalizacji na podstawie wybranej funkcji fitness
 def optimize(fitness_function):
@@ -61,6 +71,7 @@ def optimize(fitness_function):
 
     return best_individual
 
+
 # Najlepsze rozwiązanie po wszystkich generacjach
 best_individual = tools.selBest(population, k=1)[0]
 print(
@@ -82,7 +93,46 @@ def plot_step_response(system, Kp, Ki, Kd, label, ax):
     ax.set_title(f"Odpowiedź skokowa dla {label}")
     ax.grid()
     ax.legend()
+
+
 # Funkcja porównująca różne funkcje fitness
+# def compare_fitness_functions():
+#     fitness_functions = [fitness_ISE, fitness_IAE, fitness_MSE, fitness_ITAE, fitness_ITAE_settling,
+#                          fitness_multi_objective]
+#     labels = ['ISE', 'IAE', 'MSE', 'ITAE', 'ITAE_settling', 'multi_objective']
+#
+#     # Utworzenie sub-wykresów (np. 2 wiersze, 3 kolumny)
+#     fig, axes = plt.subplots(2, 3, figsize=(15, 10))
+#     axes = axes.flatten()  # Spłaszczenie tablicy osi do jednego wymiaru
+#
+#     # Optymalizacja i rysowanie wyników dla każdej funkcji fitness
+#     for i, (fitness_function, label) in enumerate(zip(fitness_functions, labels)):
+#         best_individual = optimize(fitness_function)
+#         Kp, Ki, Kd = best_individual
+#         plot_step_response(system, Kp, Ki, Kd, label, axes[i])
+#
+#     # Rysowanie wspólnego wykresu dla wszystkich funkcji fitness
+#     fig_comparison, ax_comparison = plt.subplots(figsize=(10, 6))
+#     for fitness_function, label in zip(fitness_functions, labels):
+#         best_individual = optimize(fitness_function)
+#         Kp, Ki, Kd = best_individual
+#         pid = pid_controller(Kp, Ki, Kd)
+#         t, y = closed_loop_response(system, pid)
+#         ax_comparison.plot(t, y, label=label)
+#
+#     # Dodanie wartości zadanej na wspólnym wykresie
+#     ax_comparison.axhline(1, color="r", linestyle="--", label="Wartość zadana")
+#
+#     # Ustawienia wspólnego wykresu
+#     ax_comparison.set_xlabel("Czas [s]")
+#     ax_comparison.set_ylabel("Odpowiedź")
+#     ax_comparison.set_title("Porównanie odpowiedzi skokowych dla różnych funkcji fitness")
+#     ax_comparison.legend()
+#     ax_comparison.grid()
+#
+#     # Dopasowanie układu sub-wykresów
+#     plt.tight_layout()
+#     plt.show()
 def compare_fitness_functions():
     fitness_functions = [fitness_ISE, fitness_IAE, fitness_MSE, fitness_ITAE, fitness_ITAE_settling,
                          fitness_multi_objective]
@@ -92,17 +142,19 @@ def compare_fitness_functions():
     fig, axes = plt.subplots(2, 3, figsize=(15, 10))
     axes = axes.flatten()  # Spłaszczenie tablicy osi do jednego wymiaru
 
-    # Optymalizacja i rysowanie wyników dla każdej funkcji fitness
+    # Zmienna do przechowywania najlepszych parametrów PID
+    best_individuals = {}
+
+    # Optymalizacja dla każdej funkcji fitness i zapisanie najlepszych parametrów
     for i, (fitness_function, label) in enumerate(zip(fitness_functions, labels)):
-        best_individual = optimize(fitness_function)
-        Kp, Ki, Kd = best_individual
+        best_individuals[label] = optimize(fitness_function)  # Optymalizujemy raz
+        Kp, Ki, Kd = best_individuals[label]
         plot_step_response(system, Kp, Ki, Kd, label, axes[i])
 
     # Rysowanie wspólnego wykresu dla wszystkich funkcji fitness
     fig_comparison, ax_comparison = plt.subplots(figsize=(10, 6))
     for fitness_function, label in zip(fitness_functions, labels):
-        best_individual = optimize(fitness_function)
-        Kp, Ki, Kd = best_individual
+        Kp, Ki, Kd = best_individuals[label]  # Używamy wyników zapisanych wcześniej
         pid = pid_controller(Kp, Ki, Kd)
         t, y = closed_loop_response(system, pid)
         ax_comparison.plot(t, y, label=label)
@@ -120,5 +172,7 @@ def compare_fitness_functions():
     # Dopasowanie układu sub-wykresów
     plt.tight_layout()
     plt.show()
+
+
 # Symulacja i wizualizacja dla różnych funkcji fitness
 compare_fitness_functions()
