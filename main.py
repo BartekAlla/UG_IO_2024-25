@@ -1,7 +1,7 @@
 from deap import base, creator, tools, algorithms
 import random
 import matplotlib.pyplot as plt
-from fitness_functions import fitness_ISE, create_system, pid_controller, closed_loop_response
+from model_and_fitness_functions import fitness_ISE, create_system, pid_controller, closed_loop_response
 
 # Tworzenie systemu
 system = create_system()
@@ -46,10 +46,9 @@ def print_best_parameters(population):
 
 # Algorytm genetyczny
 for gen in range(generations):
-    print(f"Generacja {gen+1}")
+    print(f"Generacja {gen + 1}")
     result = algorithms.eaSimple(population, toolbox, cxpb=0.7, mutpb=0.2, ngen=1,
                                  stats=None, verbose=False)
-
     # Po zakończeniu generacji, wyświetlamy najlepsze parametry PID
     print_best_parameters(population)
 
@@ -59,7 +58,7 @@ print(
     f"Najlepsze parametry PID po {generations} generacjach: Kp={best_individual[0]}, Ki={best_individual[1]}, Kd={best_individual[2]}")
 
 
-# Funkcja rysująca odpowiedź skokową
+# Funkcja rysująca odpowiedź skokową dla najlepszych parametrów regulatora PID
 def plot_step_response(system, Kp, Ki, Kd):
     # Tworzenie regulatora PID
     pid = pid_controller(Kp, Ki, Kd)
