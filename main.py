@@ -120,5 +120,5 @@ def compare_fitness_functions():
     # Dopasowanie układu sub-wykresów
     plt.tight_layout()
     plt.show()
-# # Symulacja i wizualizacja dla różnych funkcji fitness
+# Symulacja i wizualizacja dla różnych funkcji fitness
 compare_fitness_functions()
