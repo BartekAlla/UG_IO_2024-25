@@ -49,25 +49,27 @@ def print_best_parameters(population):
     Kp, Ki, Kd = best_individual
     print(f"Najlepsze parametry PID w tej generacji: Kp={Kp}, Ki={Ki}, Kd={Kd}")
 
-
 # Funkcja do optymalizacji na podstawie wybranej funkcji fitness
-def optimize(fitness_function):
+def optimize(fitness_function, fitness_name):
+    # Wyświetlanie informacji o aktualnej funkcji fitness
+    print(f"\n=== Rozpoczynanie optymalizacji dla funkcji fitness: {fitness_name} ===\n")
+
     # Zarejestruj odpowiednią funkcję fitness w toolbox
     toolbox.fitness_function = fitness_function
 
     for gen in range(generations):
-        print(f"Generacja {gen + 1}")
+        print(f"Generacja {gen + 1} dla funkcji fitness: {fitness_name}")
         result = algorithms.eaSimple(population, toolbox, cxpb=0.7, mutpb=0.2, ngen=1,
                                      stats=None, verbose=False)
         # Po zakończeniu generacji wyświetlamy najlepsze parametry PID
         best_individual = tools.selBest(population, k=1)[0]
         Kp, Ki, Kd = best_individual
-        print(f"Najlepsze parametry PID w tej generacji: Kp={Kp}, Ki={Ki}, Kd={Kd}")
+        print(f"Najlepsze parametry PID w tej generacji: Kp={Kp:.4f}, Ki={Ki:.4f}, Kd={Kd:.4f}")
 
     # Najlepsze rozwiązanie po wszystkich generacjach
     best_individual = tools.selBest(population, k=1)[0]
-    print(
-        f"Najlepsze parametry PID po {generations} generacjach: Kp={best_individual[0]}, Ki={best_individual[1]}, Kd={best_individual[2]}")
+    print(f"\n=== Najlepsze parametry PID dla funkcji {fitness_name}: Kp={best_individual[0]:.4f}, "
+          f"Ki={best_individual[1]:.4f}, Kd={best_individual[2]:.4f} ===\n")
 
     return best_individual
 
@@ -108,7 +110,7 @@ def compare_fitness_functions():
 
     # Optymalizacja dla każdej funkcji fitness i zapisanie najlepszych parametrów
     for i, (fitness_function, label) in enumerate(zip(fitness_functions, labels)):
-        best_individuals[label] = optimize(fitness_function)  # Optymalizujemy raz
+        best_individuals[label] = optimize(fitness_function, label)  # Przekazujemy nazwę funkcji fitness
         Kp, Ki, Kd = best_individuals[label]
         plot_step_response(system, Kp, Ki, Kd, label, axes[i])
 
