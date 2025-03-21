@@ -9,7 +9,7 @@ import textwrap
 
 # Załaduj treść artykułu z pliku txt
 # https://www.nature.com/articles/d41586-024-04216-1
-with open("article.txt", "r", encoding="utf-8") as file:
+with open("../article.txt", "r", encoding="utf-8") as file:
     text = file.read()
 
 # a) Wyświetlanie oryginalnego tekstu
