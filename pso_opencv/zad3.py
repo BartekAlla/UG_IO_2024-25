@@ -38,7 +38,7 @@ def process_folder(folder_path):
     return results
 
 
-folder_path = r"D:\Studia\UG_IO_2024-25\birds"
+folder_path = r"/birds"
 
 if not os.path.exists(folder_path):
     print(f"Folder nie istnieje: {folder_path}")
